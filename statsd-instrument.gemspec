@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'statsd/instrument/version'
 
 Gem::Specification.new do |spec|
-  spec.name        = "statsd-instrument"
+  spec.name        = "h4-statsd-instrument"
   spec.version     = StatsD::Instrument::VERSION
-  spec.authors     = ["Jesse Storimer", "Tobias Lutke", "Willem van Bergen"]
+  spec.authors     = ["Jesse Storimer", "Tobias Lutke", "Willem van Bergen", "Michael Watts"]
   spec.email       = ["jesse@shopify.com"]
-  spec.homepage    = "https://github.com/Shopify/statsd-instrument"
+  spec.homepage    = "https://github.com/TetrationAnalytics/statsd-instrument"
   spec.summary     = %q{A StatsD client for Ruby apps}
   spec.description = %q{A StatsD client for Ruby apps. Provides metaprogramming methods to inject StatsD instrumentation into your code.}
   spec.license     = "MIT"
